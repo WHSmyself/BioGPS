@@ -38,7 +38,7 @@ Genomic selection (GS) and phenomic selection (PS) are pivotal for accelerating 
 
 ## RUN
 ```R
-> library("PIXANT")
+> library("BioGPS")
 > geno <- read.table("geno.txt")
 > pheno_data <- read.table("pheno.txt")
 > response <- pheno_data[,1]
