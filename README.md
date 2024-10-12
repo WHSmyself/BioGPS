@@ -46,6 +46,7 @@ Genomic selection (GS) and phenomic selection (PS) are pivotal for accelerating 
 > BioGPS_D.train <- function(Gdata = geno, Pdata = pheno, Target = response, model = RF_500, k = 5, seed = 123)
 > BioGPS_F.train <- function(Gdata = geno, Pdata = pheno, Target = response, model = Lasso_1, k = 5, seed = 123)
 > BioGPS_R.train <- function(Gdata = geno, Pdata = pheno, Target = response, model = SVM, k = 5, seed = 123, nrounds = 200)
+```
 
 ## How to access help <br>
 If you have any bug reports or questions, please feed back :point_right:[here](https://github.com/WHSmyself/BioGPS/issues):point_left:, or send email to contact:<br>
