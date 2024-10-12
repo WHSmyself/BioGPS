@@ -12,7 +12,7 @@ Genomic selection (GS) and phenomic selection (PS) are pivotal for accelerating 
 
 ## INPUT
 ### Phenotype file
-> `phenotype.txt`
+> `pheno.txt`
 
 | Phenotype1 | Phenotype2 | Phenotype3 | Phenotype4 | Phenotype5 | Phenotype6 | Phenotype7 | Phenotype8 | Phenotype9 |
 | :---: | :---: |  :---: |  :---: |  :---: | :---: | :---: | :---: | :---: |
@@ -22,3 +22,15 @@ Genomic selection (GS) and phenomic selection (PS) are pivotal for accelerating 
 | 41 | 104.14 | 51.8 | 3483.55 | 7.1 | 32.42 | 20.37 | 4.8 | 15.19 |
 | 37 | 93.98 | 50.9 | 3423.03 | 7.27 | 31.03 | 20.57 | 4.96 | 13.24 |
 | 38 | 96.52 | 49.5 | 3328.88 | 7.3 | 31.75 | 20.51 | 4.89 | 13.47 |
+
+### Genotype file
+> `geno.txt`
+
+| SNP1 | SNP2 | SNP3 | SNP4 | SNP5 | SNP6 |
+| :---: | :---: |  :---: |  :---: |  :---: | :---: |
+| 1 | 0 | 2 | 1 | 2 | 1 |
+| 0 | 2 | 2 | 0 | 1 | 2 |
+| 0 | 0 | 1 | 2 | 0 | 2 |
+| 1 | 1 | 0 | 2 | 1 | 2 |
+| 2 | 1 | 1 | 0 | 2 | 1 |
+| 1 | 2 | 0 | 2 | 1 | 1 |
