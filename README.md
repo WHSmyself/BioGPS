@@ -6,3 +6,6 @@ Genomic selection (GS) and phenomic selection (PS) are pivotal for accelerating 
 
 ## The flow chart of BioGPS <br>
 ![image](https://github.com/WHSmyself/BioGPS/blob/main/BioGPS.png)
+
+## Version and download <br>
+* [Version 0.1.0](https://github.com/WHSmyself/BioGPS/blob/main/BioGPS_0.1.0.tar.gz) -First version released on October, 12th, 2024<br>
