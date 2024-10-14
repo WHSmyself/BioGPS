@@ -43,9 +43,9 @@ Genomic selection (GS) and phenomic selection (PS) are pivotal for accelerating 
 > pheno_data <- read.table("pheno.txt")
 > response <- pheno_data[,1]
 > pheno <- pheno_data[,-1]
-> BioGPS_D.train <- function(Gdata = geno, Pdata = pheno, Target = response, model = RF_500, k = 5, seed = 123)
-> BioGPS_F.train <- function(Gdata = geno, Pdata = pheno, Target = response, model = Lasso_1, k = 5, seed = 123)
-> BioGPS_R.train <- function(Gdata = geno, Pdata = pheno, Target = response, model = SVM, k = 5, seed = 123, nrounds = 200)
+> prediction_D <- BioGPS_D.train(Gdata = geno, Pdata = pheno, Target = response, model = RF_500, k = 5, seed = 123)
+> prediction_F <- BioGPS_F.train(Gdata = geno, Pdata = pheno, Target = response, model = Lasso_1, k = 5, seed = 123)
+> prediction_R <- BioGPS_R.train(Gdata = geno, Pdata = pheno, Target = response, model = SVM, k = 5, seed = 123, nrounds = 200)
 ```
 
 ## How to access help <br>
